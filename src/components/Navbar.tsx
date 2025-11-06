@@ -25,16 +25,7 @@ const Navbar = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <div className="flex items-center space-x-2">
-            <svg className="w-8 h-8" viewBox="0 0 40 40" fill="none">
-              <rect width="40" height="40" rx="8" fill="url(#gradient)" />
-              <path d="M12 20L18 26L28 14" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
-              <defs>
-                <linearGradient id="gradient" x1="0" y1="0" x2="40" y2="40">
-                  <stop stopColor="#60A5FA" />
-                  <stop offset="1" stopColor="#A78BFA" />
-                </linearGradient>
-              </defs>
-            </svg>
+            <img src="/logo.svg" alt="DeepShape Logo" className="w-8 h-8" />
             <span className="text-xl font-semibold">
               深形智能 <span className="text-gray-400">DeepShape</span>
             </span>

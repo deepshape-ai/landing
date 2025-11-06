@@ -19,14 +19,14 @@ const Hero = () => {
 
       <div className="container-custom relative z-10">
         <div className="text-center max-w-5xl mx-auto">
-          <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-snug lg:leading-normal tracking-wide lg:tracking-wider">
             重塑口腔修复
             <br />
-            <span className="gradient-text">在一瞬间</span>
+            <span className="gradient-text"> 在一瞬之间</span>
           </h1>
 
           <p className="text-xl lg:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto">
-            基于深度学习的AI技术，实现牙科修复体设计的自动化
+            基于深度学习的AI技术，实现口腔修复体设计的自动化
             <br />
             让每一个修复体都成为艺术品
           </p>
@@ -53,7 +53,7 @@ const Hero = () => {
               <div className="text-gray-400">训练样本</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold gradient-text mb-2">99.5%</div>
+              <div className="text-4xl font-bold gradient-text mb-2">99%</div>
               <div className="text-gray-400">识别准确率</div>
             </div>
             <div className="text-center">

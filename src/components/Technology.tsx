@@ -2,7 +2,7 @@ const Technology = () => {
   const techs = [
     {
       title: '深度学习模型',
-      description: '卷积神经网络驱动的智能识别',
+      description: 'Transformer网络驱动的智能识别',
       features: [
         '基于10000+专业案例训练',
         '持续学习优化算法',
@@ -16,10 +16,10 @@ const Technology = () => {
       color: 'from-blue-500 to-cyan-500'
     },
     {
-      title: '三维几何视觉',
-      description: '99.5%准确率的精准识别',
+      title: '三维几何感知',
+      description: '99%准确率的精准识别',
       features: [
-        '亚微米级精度控制',
+        '毫米级精度控制',
         '复杂形态智能重建',
         '咬合关系自动优化'
       ],
@@ -92,11 +92,11 @@ const Technology = () => {
             拥有多项核心技术专利，与国内外顶尖院校深度合作
           </p>
           <div className="flex flex-wrap justify-center gap-8 text-sm text-gray-500">
-            <div>发明专利 8项</div>
+            <div>发明专利 3项</div>
             <div>•</div>
-            <div>清华大学联合实验室</div>
+            <div>华西口腔医学院</div>
             <div>•</div>
-            <div>北京大学口腔医学院</div>
+            <div>全国高校生物医药区域技术转移转化中心</div>
             <div>•</div>
             <div>国家重点研发计划</div>
           </div>

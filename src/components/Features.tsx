@@ -3,7 +3,7 @@ const Features = () => {
     {
       number: '01',
       title: '智能数据识别',
-      description: '上传扫描数据，AI自动识别牙位与边缘线',
+      description: '上传扫描数据，AI自动识别牙位',
       details: '支持STL、PLY等主流格式，自动完成牙位标注和边缘线提取',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -37,7 +37,7 @@ const Features = () => {
       number: '02',
       title: '云端极速设计',
       description: '基于10000+训练样本的深度学习处理',
-      details: '强大的云计算能力，平均30秒完成单冠设计，确保形态自然美观',
+      details: '强大的云计算能力，平均1分钟完成单冠设计，确保形态自然美观',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -72,7 +72,7 @@ const Features = () => {
     {
       number: '03',
       title: '在线交互微调',
-      description: '3D浏览器中进行微米级精细调整',
+      description: '3D浏览器中进行毫米级精细调整',
       details: '实时预览修改效果，支持厚度、边缘、咬合等多维度参数调整',
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">

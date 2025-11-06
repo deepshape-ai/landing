@@ -72,7 +72,7 @@ const Solutions = () => {
                 </svg>
                 <div>
                   <div className="font-semibold text-white mb-1">快速方案设计</div>
-                  <div className="text-gray-400">扫描后10分钟内获得专业修复体设计</div>
+                  <div className="text-gray-400">扫描后1分钟内获得专业修复体设计</div>
                 </div>
               </li>
               <li className="flex items-start">

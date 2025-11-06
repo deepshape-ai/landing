@@ -36,35 +36,33 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <svg className="w-8 h-8" viewBox="0 0 40 40" fill="none">
-                <rect width="40" height="40" rx="8" fill="url(#gradient)" />
-                <path d="M12 20L18 26L28 14" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
-                <defs>
-                  <linearGradient id="gradient" x1="0" y1="0" x2="40" y2="40">
-                    <stop stopColor="#60A5FA" />
-                    <stop offset="1" stopColor="#A78BFA" />
-                  </linearGradient>
-                </defs>
-              </svg>
+              <img src="/logo.svg" alt="DeepShape Logo" className="w-8 h-8" />
               <span className="text-xl font-semibold">深形智能 DeepShape</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-sm">
               基于深度学习的AI技术，重塑口腔修复设计，让每一个修复体都成为艺术品。
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-dark-bg rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
+              {/* WeChat */}
+              <a href="#" aria-label="微信" className="w-10 h-10 bg-dark-bg rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M10.5 4C6.91 4 4 6.24 4 8.99c0 1.6.9 3.03 2.33 4.01l-.5 2 2.2-1.3c.72.2 1.48.3 2.3.3 3.59 0 6.5-2.24 6.5-4.99S14.09 4 10.5 4Zm-2.25 4.25a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5Zm4.5 0a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5Z"/>
+                  <path d="M13.5 11.5c3.04 0 5.5 1.94 5.5 4.33 0 1.39-.88 2.62-2.28 3.43l.42 1.74-1.9-1.1c-.58.12-1.1.16-1.74.16-3.04 0-5.5-1.94-5.5-4.33s2.46-4.33 5.5-4.33Zm-2 2.33a.7.7 0 1 0 0 1.4.7.7 0 0 0 0-1.4Zm4 0a.7.7 0 1 0 0 1.4.7.7 0 0 0 0-1.4Z"/>
                 </svg>
               </a>
-              <a href="#" className="w-10 h-10 bg-dark-bg rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+              {/* Xiaohongshu */}
+              <a href="#" aria-label="小红书" className="w-10 h-10 bg-dark-bg rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <rect x="3" y="6.5" width="18" height="11" rx="2" ry="2"/>
+                  <path d="M7.5 9.5h1.8v5H7.5zm3.2 0h1.8v5h-1.8zM15 9.5h3v1.5h-3v-1.5zm0 3h3V14h-3v-1.5z" fill="#0f172a"/>
                 </svg>
               </a>
-              <a href="#" className="w-10 h-10 bg-dark-bg rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
-                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm4.441 16.892c-2.102.144-6.784.144-8.883 0C5.282 16.736 5.017 15.622 5 12c.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0C18.718 7.264 18.982 8.378 19 12c-.018 3.629-.285 4.736-2.559 4.892zM10 9.658l4.917 2.338L10 14.342V9.658z" />
+              {/* Weibo */}
+              <a href="#" aria-label="微博" className="w-10 h-10 bg-dark-bg rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors">
+                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M15.7 6.3a.9.9 0 0 1 1.25-.22c1.53 1.04 2.33 2.58 2.13 4.38a.9.9 0 1 1-1.79-.2c.12-1.03-.34-1.92-1.26-2.54a.9.9 0 0 1-.33-1.42Z"/>
+                  <path d="M13.9 7.6a.8.8 0 0 1 1.1-.2c.9.6 1.37 1.45 1.25 2.46a.8.8 0 1 1-1.58-.18c.05-.47-.16-.86-.61-1.17a.8.8 0 0 1-.16-1.1Z"/>
+                  <path d="M10.6 9.5c2.2-.46 3.02.28 2.76 1.24-.12.43.24.43.56.32 1.17-.41 1.98.28 1.52 1.37-.19.45.04.55.39.65.91.27.97 1.1.2 1.78-1.04.94-2.86 1.74-5.18 1.74-2.86 0-5.18-1.23-5.18-2.75 0-1.96 3.08-4 4.94-4.35Z"/>
                 </svg>
               </a>
             </div>
