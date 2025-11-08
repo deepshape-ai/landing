@@ -18,6 +18,10 @@ const Navbar = () => {
     }
   };
 
+  const goToLogin = () => {
+    window.location.href = 'https://frontend.deepshape.cn';
+  };
+
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       scrolled ? 'bg-dark-bg/95 backdrop-blur-lg shadow-lg shadow-black/20' : 'bg-transparent'
@@ -49,9 +53,14 @@ const Navbar = () => {
             </button>
           </div>
 
-          <button onClick={() => scrollToSection('apply')} className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2.5 rounded-full hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300">
-            申请内测
-          </button>
+          <div className="flex items-center space-x-4">
+            <button onClick={() => scrollToSection('apply')} className="bg-gradient-to-r from-blue-500 to-purple-600 text-white px-6 py-2.5 rounded-full hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300">
+              申请内测
+            </button>
+            <button onClick={() => goToLogin()} className="bg-dark-card border border-dark-border text-white px-6 py-2.5 rounded-full text-lg font-semibold hover:border-gray-500 transition-all duration-300 hover:-translate-y-1">
+              登陆
+            </button>
+          </div>
         </div>
       </div>
     </nav>

@@ -89,14 +89,15 @@ const Footer = () => {
         </div>
 
         {/* Bottom */}
-        <div className="pt-8 border-t border-dark-border flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-500 text-sm">
-            © 2025 深形智能 DeepShape. 保留所有权利。
-          </p>
-          <div className="flex gap-6 text-sm text-gray-500">
-            <a href="#privacy" className="hover:text-white transition-colors">隐私政策</a>
-            <a href="#terms" className="hover:text-white transition-colors">服务条款</a>
-            <a href="#cookies" className="hover:text-white transition-colors">Cookie政策</a>
+        <div className="flex justify-center">
+          <div className="flex flex-col items-center gap-1 text-sm text-gray-500">
+            <div>©2025 南京深形智能科技有限公司 版权所有</div>
+            <div>地址：江苏省南京市江北新区龙山南路141号化学之光B栋 电话：15262245466</div>
+            <div>
+              <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">
+                苏ICP备2025186445号
+              </a>
+            </div>
           </div>
         </div>
       </div>
